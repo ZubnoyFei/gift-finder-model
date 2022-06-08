@@ -1,4 +1,114 @@
 @font-face {
+    font-family: Montserrat;
+    font-display: swap;
+    font-weight: 300;
+    src: url("/src/fonts/Montserrat-ExtraLight.woff2") format('woff2');
+    style: normal;
+}
 
+@font-face {
+    font-family: Montserrat;
+    font-display: swap;
+    font-weight: 400;
+    src: url("/src/fonts/Montserrat-Light.woff2") format('woff2');
+    style: normal;
+}
+
+
+@font-face {
+    font-family: Montserrat;
+    font-display: swap;
+    font-weight: 500;
+    src: url("/src/fonts/Montserrat-Thin.woff2") format('woff2');
+    style: normal;
+}
+
+
+@font-face {
+    font-family: Montserrat;
+    font-display: swap;
+    font-weight: 700;
+    src: url("/src/fonts/Montserrat-Bold.woff2") format('woff2');
+    style: normal;
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-display: swap;
+    font-weight: 900;
+    src: url("/src/fonts/Montserrat-ExtraBold.woff2") format('woff2');
+    style: normal;
+}
+
+title {
+    line-height: 1.25;
+}
+
+
+header > button {
+    border-color: #F7941E;
+    background-color: transparent;
+    color: #F7941E;
+    border-radius: 5px;
+    width: 150px;
+    height: 44px;
+
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+}
+
+header > nav > ul {
+    background-color: transparent;
+}
+
+h1 {
+    font-size: 56px;
+    word-break: break-all;
+}
+
+h2 {
+    font-size: 32px;
+    line-height: 0.72;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.38;
+}
+
+
+.gifts-occasions ul > li > img {
+    width: 200px;
+    height: 200px;
+
+}
+
+.gifts-occasions ul > li {
+    background-color: white;
+}
+
+.get-started {
+    background-color: #F7941E;
+}
+
+
+
+.best-blogs ul {
+    background-color: black;
+}
+
+h2 > p::before {
+    line-height: 1.25;
+}
+
+footer > nav > ul {
+    background-color: transparent;
+    color: black;
+}
+
+footer > nav > ul > li >a {
+    color: black;
 }
 
