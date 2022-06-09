@@ -94,7 +94,6 @@ p {
 }
 
 
-
 .best-blogs ul {
     background-color: black;
 }
@@ -108,7 +107,24 @@ footer > nav > ul {
     color: black;
 }
 
-footer > nav > ul > li >a {
+footer > nav > ul > li > a {
     color: black;
 }
 
+
+footer > nav > ul > li > a:last-of-type {
+    color: orangered;
+}
+
+footer > nav > ul > li > a:last-of-type:hover {
+    color: cadetblue;
+}
+
+footer > nav > ul > li > a:before:hover {
+    color: greenyellow;
+}
+
+
+.best-blogs ul > li > button:hover {
+color: chartreuse;
+}
