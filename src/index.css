@@ -88,6 +88,7 @@ h1 {
     font-size: 56px;
     word-break: break-all;
     line-height: 1.2;
+    font-family: Gilroy-Extrabold, sans-serif;
 }
 
 h2 {
@@ -101,9 +102,16 @@ p {
 }
 
 button {
+    font-size: 18px;
     width: 200px;
     height: 60px;
     border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.find-a-gift {
+    background-color: #F1F1F2;
+;
 }
 
 .find-a-gift p {
@@ -111,15 +119,34 @@ button {
     line-height: 1.4;
 }
 
-.find-a-gift button {
+.find-a-gift button:last-of-type {
+    background-color: transparent;
+    border-radius: 5px;
+    color: #F7941E;
+    text-transform: uppercase;
+    border-color: #F7941E;
+}
+
+.find-a-gift button:first-of-type {
     background-color: #F7941E;
     border-radius: 5px;
     color: white;
+    text-transform: uppercase;
+    border-color: #F7941E;
 }
 
+.find-a-gift img {
+    width: 570px;
+}
+
+
+.gifts-occasions a {
+    color : #000000;
+
+}
 .gifts-occasions ul > li > img {
-    width: 200px;
-    height: 200px;
+    width: 270px;
+    height: 270px;
 
 }
 
@@ -128,19 +155,57 @@ button {
     line-height: 1.2;
 }
 
+.gifts-occasions ul > li > p{
+    font-size: 20px;
+    line-height: 1.2;
+}
+
 .get-started {
     background-color: #F7941E;
 }
 
+.get-started h2 {
+    font-size: 32px;
+font-family: Gilroy-Bold, sans-serif;
+line-height: 1.4;
+}
+
+.get-started p {
+    font-size: 32px;
+    font-family: Gilroy-Regular, sans-serif;
+    line-height: 1.4;
+}
+
+.get-started button:first-of-type {
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+
+.get-started button:last-of-type {
+    background-color: transparent;
+    color: black;
+    border-color: black;
+border-width: 3px;
+}
 
 .best-blogs ul {
     background-color: black;
+    color: white;
+}
+
+.best-blogs h2 {
+    font-size: 32px;
+    line-height: 1.2;
 }
 
 h2 > p::before {
     line-height: 1.25;
 }
 
+.best-blogs img {
+    width: 400px;
+}
 footer > nav > ul {
     background-color: transparent;
     color: black;
