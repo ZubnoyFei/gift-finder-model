@@ -62,6 +62,7 @@ header > button {
     width: 150px;
     height: 44px;
     /*font-family: HomemadeApple, sans-serif;*/ /* Если навешиваю фонт на кнопку, она пишется коряво*/
+    font-size: 18px;
 }
 
 header>p:first-of-type {
@@ -107,6 +108,7 @@ button {
     height: 60px;
     border-radius: 5px;
     text-transform: uppercase;
+    font-family: Gilroy-Regular, sans-serif;
 }
 
 .find-a-gift {
@@ -189,9 +191,16 @@ line-height: 1.4;
 border-width: 3px;
 }
 
-.best-blogs ul {
+.best-blogs ul > li>h2{
+    width: 1170px;
     background-color: black;
     color: white;
+    font-size: 48px;
+}
+
+.best-blogs ul > li>p>a:first-of-type {
+    color: white;
+    font-size: 18px;
 }
 
 .best-blogs h2 {
@@ -199,6 +208,13 @@ border-width: 3px;
     line-height: 1.2;
 }
 
+.best-blogs ul> li:first-of-type {
+background-color: black;
+    color: white;
+    height: 370px;
+    width: 1170px;
+
+}
 h2 > p::before {
     line-height: 1.25;
 }
@@ -210,27 +226,17 @@ footer > nav > ul {
     background-color: transparent;
     color: black;
     line-height: 1.2;
+    font-size: 14px;
 }
 
 footer > nav > ul > li > a {
     color: black;
 }
 
-
-footer > nav > ul > li > a:last-of-type {
-    color: orangered;
-}
-
-footer > nav > ul > li > a:last-of-type:hover {
-    color: cadetblue;
-}
-
-footer > nav > ul > li > a:before:hover {
-    color: greenyellow;
+footer > nav > ul > li > a > p {
+    color: #F7941E;
+    font-family: HomemadeApple, sans-serif;
 }
 
 
-.best-blogs ul > li > button:hover {
-color: chartreuse;
-}
 
