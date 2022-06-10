@@ -93,11 +93,19 @@ h1 {
 }
 
 h2 {
+    font-family: Gilroy-Regular, sans-serif;
+    font-size: 32px;
+    line-height: 0.72;
+}
+
+h3 {
+    font-family: Gilroy-Regular, sans-serif;
     font-size: 32px;
     line-height: 0.72;
 }
 
 p {
+    font-family: Gilroy-Thin, sans-serif;
     font-size: 18px;
     line-height: 1.38;
 }
@@ -117,11 +125,13 @@ button {
 }
 
 .find-a-gift p {
+    font-family: Gilroy-Thin, sans-serif;
     font-size: 20px;
     line-height: 1.4;
 }
 
 .find-a-gift button:last-of-type {
+    font-family: Gilroy-Thin, sans-serif;
     background-color: transparent;
     border-radius: 5px;
     color: #F7941E;
@@ -130,6 +140,7 @@ button {
 }
 
 .find-a-gift button:first-of-type {
+    font-family: Gilroy-Thin, sans-serif;
     background-color: #F7941E;
     border-radius: 5px;
     color: white;
