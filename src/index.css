@@ -128,6 +128,8 @@ button {
     font-family: Gilroy-Thin, sans-serif;
     font-size: 20px;
     line-height: 1.4;
+    color: black;
+    text-align: center;
 }
 
 .find-a-gift button:last-of-type {
@@ -170,7 +172,7 @@ button {
     line-height: 1.2;
 }
 
-.gifts-occasions ul > li>h2 {
+.gifts-occasions ul > li>h3 {
 font-size: 20px;
     line-height: 1.2;
 }
@@ -209,7 +211,7 @@ line-height: 1.4;
 border-width: 3px;
 }
 
-.best-blogs ul > li>h2{
+.best-blogs ul > li>h3{
     width: 1170px;
     background-color: black;
     color: white;
@@ -240,6 +242,8 @@ h2 > p::before {
 .best-blogs img {
     width: 400px;
 }
+
+
 footer > nav > ul {
     background-color: transparent;
     color: black;
