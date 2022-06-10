@@ -141,7 +141,9 @@ button {
     width: 570px;
 }
 
-
+.gifts-occasions h2:first-of-type {
+    text-align: center;
+}
 .gifts-occasions a {
     color : #000000;
 
