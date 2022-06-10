@@ -226,6 +226,11 @@ border-width: 3px;
 .best-blogs h2 {
     font-size: 32px;
     line-height: 1.2;
+    text-align: center;
+}
+
+.best-blogs p {
+    text-align: center;
 }
 
 .best-blogs ul> li:first-of-type {
