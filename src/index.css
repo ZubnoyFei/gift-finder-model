@@ -61,7 +61,7 @@ header > button {
     border-radius: 5px;
     width: 150px;
     height: 44px;
-
+    /*font-family: HomemadeApple, sans-serif;*/ /* Если навешиваю фонт на кнопку, она пишется коряво*/
 }
 
 header>p:first-of-type {
@@ -80,6 +80,8 @@ body {
 header > nav > ul {
     background-color: transparent;
     font-family: Gilroy-Regular, sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
 }
 
 h1 {
@@ -98,6 +100,22 @@ p {
     line-height: 1.38;
 }
 
+button {
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.find-a-gift p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.find-a-gift button {
+    background-color: #F7941E;
+    border-radius: 5px;
+    color: white;
+}
 
 .gifts-occasions ul > li > img {
     width: 200px;
