@@ -276,7 +276,7 @@ header nav > ul > li:first-letter {
 }
 
 header nav > ul[title^='li'] {
-color: fuchsia;
+    color: fuchsia;
 }
 
 
@@ -291,4 +291,12 @@ a[href^="#"]:hover {
 
 [href$='more'] {
     color: darkorchid;
+}
+
+footer > nav > ul > li > a[href="https://google.com"]:hover {
+    color: chartreuse;
+}
+
+[title="Get Started"]:focus {
+    font-size: 40px;
 }
