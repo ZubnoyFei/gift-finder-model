@@ -1,3 +1,7 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0-modified | 20110126
+   License: none (public domain)
+*/
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -242,7 +246,7 @@ input[type="reset"],
 input[type="submit"] {
     -webkit-appearance: button; /* 2 */
     cursor: pointer; /* 3 */
-    *overflow: visible; /* 4 */
+    *overflow: visible;  /* 4 */
 }
 
 /**
@@ -274,7 +278,6 @@ input[type="radio"] {
  * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
  *    (include `-moz` to future-proof).
  */
-
 
 input[type="search"] {
     -webkit-appearance: textfield; /* 1 */
@@ -361,31 +364,3 @@ textarea {
     color: #000;
     padding: 0.2em 0;
 }
-
-ul {
-    width: 500px;
-    padding: 10px;
-    background-color: silver;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-li {
-    background-color: white;
-    padding: 4px;
-    border-radius: 5px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.center {
-    margin-top: 10px;
-    text-align: center;
-    width: 500px;
-}
-
-
-
