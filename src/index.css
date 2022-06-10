@@ -65,13 +65,13 @@ header > button {
     font-size: 18px;
 }
 
-header>p:first-of-type {
+header > p:first-of-type {
     font-family: HomemadeApple, sans-serif;
 }
 
 header > p {
     font-family: Gilroy-Regular, sans-serif;
-font-style: italic;
+    font-style: italic;
 }
 
 body {
@@ -120,8 +120,7 @@ button {
 }
 
 .find-a-gift {
-    background-color: #F1F1F2;
-;
+    background-color: #F1F1F2;;
 }
 
 .find-a-gift p {
@@ -157,10 +156,12 @@ button {
 .gifts-occasions h2:first-of-type {
     text-align: center;
 }
+
 .gifts-occasions a {
-    color : #000000;
+    color: #000000;
 
 }
+
 .gifts-occasions ul > li > img {
     width: 270px;
     height: 270px;
@@ -172,12 +173,12 @@ button {
     line-height: 1.2;
 }
 
-.gifts-occasions ul > li>h3 {
-font-size: 20px;
+.gifts-occasions ul > li > h3 {
+    font-size: 20px;
     line-height: 1.2;
 }
 
-.gifts-occasions ul > li > p{
+.gifts-occasions ul > li > p {
     font-size: 14px;
     line-height: 1.2;
 }
@@ -188,8 +189,8 @@ font-size: 20px;
 
 .get-started h2 {
     font-size: 32px;
-font-family: Gilroy-Bold, sans-serif;
-line-height: 1.4;
+    font-family: Gilroy-Bold, sans-serif;
+    line-height: 1.4;
 }
 
 .get-started p {
@@ -208,17 +209,17 @@ line-height: 1.4;
     background-color: transparent;
     color: black;
     border-color: black;
-border-width: 3px;
+    border-width: 3px;
 }
 
-.best-blogs ul > li>h3{
+.best-blogs ul > li > h3 {
     width: 1170px;
     background-color: black;
     color: white;
     font-size: 48px;
 }
 
-.best-blogs ul > li>p>a:first-of-type {
+.best-blogs ul > li > p > a:first-of-type {
     color: white;
     font-size: 18px;
 }
@@ -233,13 +234,14 @@ border-width: 3px;
     text-align: center;
 }
 
-.best-blogs ul> li:first-of-type {
-background-color: black;
+.best-blogs ul > li:first-of-type {
+    background-color: black;
     color: white;
     height: 370px;
     width: 1170px;
 
 }
+
 h2 > p::before {
     line-height: 1.25;
 }
@@ -267,4 +269,26 @@ footer > nav > ul > li > a > p {
 }
 
 
+/* Selectors*/
 
+header nav > ul > li:first-letter {
+    font-size: 30px;
+}
+
+header nav > ul[title^='li'] {
+color: fuchsia;
+}
+
+
+a[href^="#"]:hover {
+    font-size: 40px;
+}
+
+[title*='tt'] {
+    font-size: large;
+}
+
+
+[href$='more'] {
+    color: darkorchid;
+}
