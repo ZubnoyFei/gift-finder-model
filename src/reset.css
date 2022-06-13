@@ -365,6 +365,10 @@ textarea {
     padding: 0.2em 0;
 }
 
-a {
+a{
     text-decoration: none;
+}
+
+*{
+    box-sizing: border-box;
 }
