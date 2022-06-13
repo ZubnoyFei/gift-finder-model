@@ -136,6 +136,10 @@ button {
     text-align: center;
 }
 
+.gifts-occasions p {
+    text-align: center;
+}
+
 .gifts-occasions a {
     color: #000000;
 
@@ -198,6 +202,18 @@ button {
     background-color: black;
 }
 
+.best-blogs ul>li:first-child >h3{
+font-size: 48px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.best-blogs ul>li:first-child >p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
 
 .best-blogs ul > li > p > a:first-of-type {
     color: white;
@@ -215,7 +231,6 @@ button {
     line-height: 1.2;
     text-align: center;
 }
-
 
 .best-blogs h3 {
     font-size: 24px;
