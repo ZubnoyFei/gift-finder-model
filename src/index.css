@@ -1,43 +1,38 @@
 @font-face {
-    font-family: Gilroy-UltraLight;
+    font-family: Gilroy;
     font-display: swap;
     font-weight: 300;
-    src: url("/src/fonts/Gilroy-UltraLight.woff2") format('woff2');
-    style: normal;
+    src: url("fonts/Gilroy-UltraLight.woff2") format('woff2');
 }
 
 @font-face {
-    font-family: Gilroy-Thin;
+    font-family: Gilroy;
     font-display: swap;
     font-weight: 400;
-    src: url("/src/fonts/Gilroy-Thin.woff2") format('woff2');
-    style: normal;
+    src: url("fonts/Gilroy-Thin.woff2") format('woff2');
 }
 
 @font-face {
-    font-family: Gilroy-Regular;
+    font-family: Gilroy;
     font-display: swap;
     font-weight: 600;
-    src: url("/src/fonts/Gilroy-Regular.woff2") format('woff2');
-    style: normal;
+    src: url("fonts/Gilroy-Regular.woff2") format('woff2');
 }
 
 
 @font-face {
-    font-family: Gilroy-Bold;
+    font-family: Gilroy;
     font-display: swap;
     font-weight: 700;
-    src: url("/src/fonts/Gilroy-Bold.woff2") format('woff2');
-    style: normal;
+    src: url("fonts/Gilroy-Bold.woff2") format('woff2');
 }
 
 
 @font-face {
-    font-family: Gilroy-Extrabold;
+    font-family: Gilroy;
     font-display: swap;
     font-weight: 900;
-    src: url("/src/fonts/Gilroy-Extrabold.woff2") format('woff2');
-    style: normal;
+    src: url("fonts/Gilroy-Extrabold.woff2") format('woff2');
 }
 
 
@@ -45,12 +40,11 @@
     font-family: HomemadeApple;
     font-display: swap;
     font-weight: 100;
-    src: url("/src/fonts/HomemadeApple-Regular.woff2") format('woff2');
-    style: normal;
+    src: url("fonts/HomemadeApple-Regular.woff2") format('woff2');
 }
 
-title {
-    line-height: 1.25;
+body {
+    font-family: Gilroy, sans-serif;
 }
 
 
@@ -59,64 +53,56 @@ header > button {
     background-color: transparent;
     color: #F7941E;
     border-radius: 5px;
-    width: 150px;
-    height: 44px;
-    /*font-family: HomemadeApple, sans-serif;*/ /* Если навешиваю фонт на кнопку, она пишется коряво*/
     font-size: 18px;
+    font-family: inherit;
+    line-height: 1.2;
+    text-align: center;
 }
+
 
 header > p:first-of-type {
     font-family: HomemadeApple, sans-serif;
-}
-
-header > p {
-    font-family: Gilroy-Regular, sans-serif;
     font-style: italic;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 2.1;
 }
 
-body {
-    font-family: Gilroy-Regular, sans-serif;
-}
-
-header > nav > ul {
-    background-color: transparent;
-    font-family: Gilroy-Regular, sans-serif;
+header > nav > ul a {
     font-size: 18px;
     line-height: 1.2;
+    font-weight: 600;
 }
 
 h1 {
     font-size: 56px;
     word-break: break-all;
     line-height: 1.2;
-    font-family: Gilroy-Extrabold, sans-serif;
+    font-weight: 900;
 }
 
 h2 {
-    font-family: Gilroy-Regular, sans-serif;
     font-size: 32px;
     line-height: 0.72;
+    font-weight: 700;
 }
 
 h3 {
-    font-family: Gilroy-Regular, sans-serif;
     font-size: 32px;
-    line-height: 0.72;
+    line-height: 1.2;
+    font-weight: 600;
 }
 
 p {
-    font-family: Gilroy-Thin, sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.38;
+    font-weight: 600;
 }
 
 button {
     font-size: 18px;
-    width: 200px;
-    height: 60px;
-    border-radius: 5px;
     text-transform: uppercase;
-    font-family: Gilroy-Regular, sans-serif;
+    font-weight: 100;
 }
 
 .find-a-gift {
@@ -124,7 +110,6 @@ button {
 }
 
 .find-a-gift p {
-    font-family: Gilroy-Thin, sans-serif;
     font-size: 20px;
     line-height: 1.4;
     color: black;
@@ -132,20 +117,14 @@ button {
 }
 
 .find-a-gift button:last-of-type {
-    font-family: Gilroy-Thin, sans-serif;
     background-color: transparent;
-    border-radius: 5px;
     color: #F7941E;
-    text-transform: uppercase;
-    border-color: #F7941E;
 }
 
 .find-a-gift button:first-of-type {
-    font-family: Gilroy-Thin, sans-serif;
     background-color: #F7941E;
     border-radius: 5px;
     color: white;
-    text-transform: uppercase;
     border-color: #F7941E;
 }
 
@@ -153,7 +132,7 @@ button {
     width: 570px;
 }
 
-.gifts-occasions h2:first-of-type {
+.gifts-occasions h2 {
     text-align: center;
 }
 
@@ -170,7 +149,6 @@ button {
 
 .gifts-occasions ul > li {
     background-color: white;
-    line-height: 1.2;
 }
 
 .gifts-occasions ul > li > h3 {
@@ -178,9 +156,10 @@ button {
     line-height: 1.2;
 }
 
-.gifts-occasions ul > li > p {
+.gifts-occasions ul > li > a {
     font-size: 14px;
     line-height: 1.2;
+    font-weight: 600;
 }
 
 .get-started {
@@ -189,13 +168,11 @@ button {
 
 .get-started h2 {
     font-size: 32px;
-    font-family: Gilroy-Bold, sans-serif;
     line-height: 1.4;
 }
 
 .get-started p {
     font-size: 32px;
-    font-family: Gilroy-Regular, sans-serif;
     line-height: 1.4;
 }
 
@@ -212,16 +189,25 @@ button {
     border-width: 3px;
 }
 
-.best-blogs ul > li > h3 {
-    width: 1170px;
-    background-color: black;
+.best-blogs ul > li:first-of-type > h3 {
     color: white;
     font-size: 48px;
 }
 
+.best-blogs ul > li:first-of-type {
+    background-color: black;
+}
+
+
 .best-blogs ul > li > p > a:first-of-type {
     color: white;
     font-size: 18px;
+}
+
+.best-blogs ul > li > a {
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 600;
 }
 
 .best-blogs h2 {
@@ -230,6 +216,13 @@ button {
     text-align: center;
 }
 
+
+.best-blogs h3 {
+    font-size: 24px;
+    line-height: 1.2;
+    text-align: center;
+    font-weight: 900;
+}
 .best-blogs p {
     text-align: center;
 }
@@ -242,25 +235,15 @@ button {
 
 }
 
-h2 > p::before {
-    line-height: 1.25;
-}
-
 .best-blogs img {
     width: 400px;
 }
 
 
 footer > nav > ul {
-    background-color: transparent;
-    color: black;
-    line-height: 1.2;
-    font-size: 14px;
-}
-
-footer > nav > ul > li > a {
     color: black;
     font-size: 14px;
+    font-weight: 700;
 }
 
 footer > nav > ul > li > a > p {
@@ -271,32 +254,32 @@ footer > nav > ul > li > a > p {
 
 /* Selectors*/
 
-header nav > ul > li:first-letter {
-    font-size: 30px;
-}
+/*header nav > ul > li:first-letter {*/
+/*    font-size: 30px;*/
+/*}*/
 
-header nav > ul[title^='li'] {
-    color: fuchsia;
-}
-
-
-a[href^="#"]:hover {
-    font-size: 40px;
-}
-
-[title*='tt'] {
-    font-size: large;
-}
+/*header nav > ul[title^='li'] {*/
+/*    color: fuchsia;*/
+/*}*/
 
 
-[href$='more'] {
-    color: darkorchid;
-}
+/*a[href^="#"]:hover {*/
+/*    font-size: 40px;*/
+/*}*/
 
-footer > nav > ul > li > a[href="https://google.com"]:hover {
-    color: chartreuse;
-}
+/*[title*='tt'] {*/
+/*    font-size: large;*/
+/*}*/
 
-[title="Get Started"]:focus {
-    font-size: 40px;
-}
+
+/*[href$='more'] {*/
+/*    color: darkorchid;*/
+/*}*/
+
+/*footer > nav > ul > li > a[href="https://google.com"]:hover {*/
+/*    color: chartreuse;*/
+/*}*/
+
+/*[title="Get Started"]:focus {*/
+/*    font-size: 40px;*/
+/*}*/
