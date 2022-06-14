@@ -57,6 +57,9 @@ header > button {
     font-family: inherit;
     line-height: 1.2;
     text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+
 }
 
 
@@ -66,6 +69,11 @@ header > p:first-of-type {
     font-size: 18px;
     font-weight: 400;
     line-height: 2.1;
+}
+
+header >nav>ul{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 header > nav > ul a {
@@ -103,6 +111,9 @@ button {
     font-size: 18px;
     text-transform: uppercase;
     font-weight: 100;
+    width: 150px;
+    height: 43px;
+    padding-top: 5px;
 }
 
 .find-a-gift {
