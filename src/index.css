@@ -436,6 +436,17 @@ font-size: 48px;
     font-size: 18px;
     font-weight: 600;
     color:white;
+    padding-bottom: 40px;
+}
+
+
+.bottom-card {
+    display: flex;
+    flex-direction: column;
+    max-width: 570px;
+    max-height: 290px;
+    gap: 30px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
 }
 
 footer{
