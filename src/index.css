@@ -43,12 +43,37 @@
     src: url("fonts/HomemadeApple-Regular.woff2") format('woff2');
 }
 
+.container {
+    width:1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 body {
     font-family: Gilroy, sans-serif;
 }
 
+header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:30px;
+}
 
-header > button {
+header .logo {
+    margin-left: 120px;
+    padding-top: 45px;
+}
+
+.header-nav ul {
+    display: flex;
+    gap: 30px;
+    margin-left: 110px;
+    padding-top: 35px;
+}
+
+header >div> button {
+    display: flex;
     border-color: #F7941E;
     background-color: transparent;
     color: #F7941E;
@@ -57,13 +82,14 @@ header > button {
     font-family: inherit;
     line-height: 1.2;
     text-align: center;
-    display: flex;
-    justify-content: space-evenly;
     left: 500px;
+    margin-right: 150px;
+    margin-top: 40px;
+    padding-left: 25px;
 }
 
 
-header > p:first-of-type {
+.logo {
     font-family: HomemadeApple, sans-serif;
     font-style: italic;
     font-size: 18px;
@@ -71,10 +97,6 @@ header > p:first-of-type {
     line-height: 2.1;
 }
 
-header >nav>ul{
-    display: flex;
-    justify-content: space-evenly;
-}
 
 header > nav > ul a {
     font-size: 18px;
