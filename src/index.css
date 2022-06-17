@@ -58,6 +58,7 @@ header div {
     justify-content: space-between;
     align-items: center;
     gap:30px;
+    padding-bottom: 47px;
 }
 
 header .logo {
@@ -86,6 +87,7 @@ header >div> button {
     margin-right: 150px;
     margin-top: 40px;
     padding-left: 25px;
+    padding-top: 10px;
 }
 
 
@@ -101,7 +103,7 @@ header >div> button {
 .header-nav ul >li> a {
     font-size: 18px;
     line-height: 1.2;
-    font-weight: 700;
+    font-weight: 900;
 }
 
 h1 {
@@ -148,43 +150,64 @@ button {
 }
 
 
-
-
 .text-wrap h1 {
     padding-right: 150px;
-    padding-top: 105px;
+    padding-top: 60px;
     font-size: 56px;
     line-height: 1.2;
 }
 
-.text-wrap p {
+.text-wrap p:first-of-type {
     font-size: 20px;
     line-height: 1.4;
     color: black;
-    text-align: center;
     padding-top: 50px;
-    padding-right: 30px;
+    padding-right: 150px;
     padding-bottom: 30px;
-    margin-right: 150px;
 }
 
+.text-wrap h2 {
+    margin-left: 150px;
 
+}
 
+.text-wrap button {
+    background-color: transparent;
+    color: transparent;
+    min-width: 200px;
+    height:60px;
+}
+
+.text-wrap-2nd h2 {
+    margin-left: 150px;
+    padding-top: 130px;
+    padding-bottom: 40px;
+}
+
+.text-wrap-2nd p {
+    margin-left: 150px;
+    padding-bottom: 35px;
+}
+
+.text-wrap-2nd button {
+    margin-left: 150px;
+    min-width: 200px;
+    height:60px;
+}
 
 .img-wrap img{
     padding-top: 70px;
-    padding-bottom: 70px;
     max-width: 570px;
     display: flex;
 }
 
+.text-wrap:last-of-type {
+    padding-top: 140px;
+}
 
-.find-a-gift-wrapper button:last-of-type {
-    min-width: 200px;
-    height:60px;
-    margin-top: 20px;
-    background-color: transparent;
-    color: #F7941E;
+.img-wrap img:last-of-type{
+    max-width: 570px;
+    display: flex;
 }
 
 .find-a-gift button:first-of-type {
