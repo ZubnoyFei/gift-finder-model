@@ -98,10 +98,10 @@ header >div> button {
 }
 
 
-header > nav > ul a {
+.header-nav ul >li> a {
     font-size: 18px;
     line-height: 1.2;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 h1 {
@@ -113,7 +113,7 @@ h1 {
 h2 {
     font-size: 32px;
     line-height: 0.72;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 h3 {
@@ -148,7 +148,10 @@ button {
 }
 
 
+
+
 .text-wrap h1 {
+    padding-right: 150px;
     padding-top: 105px;
     font-size: 56px;
     line-height: 1.2;
@@ -161,7 +164,7 @@ button {
     text-align: center;
     padding-top: 50px;
     padding-right: 30px;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
     margin-right: 150px;
 }
 
@@ -179,7 +182,7 @@ button {
 .find-a-gift-wrapper button:last-of-type {
     min-width: 200px;
     height:60px;
-    margin-top: 55px;
+    margin-top: 20px;
     background-color: transparent;
     color: #F7941E;
 }
