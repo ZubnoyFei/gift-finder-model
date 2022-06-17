@@ -106,7 +106,6 @@ header > nav > ul a {
 
 h1 {
     font-size: 56px;
-    word-break: break-all;
     line-height: 1.2;
     font-weight: 900;
 }
@@ -142,21 +141,45 @@ button {
     background-color: #F1F1F2;;
 }
 
-.find-a-gift div {
+.find-a-gift-wrapper {
+    margin-left: 125px;
     margin-right: 170px;
     display: flex;
-    max-width: 450px;
-    justify-content: space-evenly;
 }
 
-.find-a-gift p {
+
+.text-wrap h1 {
+    padding-top: 105px;
+    font-size: 56px;
+    line-height: 1.2;
+}
+
+.text-wrap p {
     font-size: 20px;
     line-height: 1.4;
     color: black;
     text-align: center;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 60px;
+    margin-right: 150px;
 }
 
-.find-a-gift button:last-of-type {
+
+
+
+.img-wrap img{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    max-width: 570px;
+    display: flex;
+}
+
+
+.find-a-gift-wrapper button:last-of-type {
+    min-width: 200px;
+    height:60px;
+    margin-top: 55px;
     background-color: transparent;
     color: #F7941E;
 }
@@ -168,11 +191,6 @@ button {
     border-color: #F7941E;
 }
 
-.find-a-gift img {
-    width: 570px;
-    display: flex;
-    align-items: flex-end;
-}
 
 .gifts-occasions h2 {
     text-align: center;
