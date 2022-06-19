@@ -45,8 +45,6 @@
 
 .container {
     width: 1440px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 body {
@@ -70,7 +68,6 @@ header .logo {
 .header-nav ul {
     display: flex;
     gap: 30px;
-
 }
 
 header > div > button {
@@ -365,9 +362,6 @@ border-radius: 5px;
     font-size: 48px;
 }
 
-.best-blogs ul > li:first-of-type {
-    background-color: black;
-}
 
 .best-blogs ul > li:first-child > h3 {
     font-size: 48px;
@@ -406,6 +400,7 @@ border-radius: 5px;
     line-height: 1.2;
     text-align: center;
     font-weight: 900;
+    padding-bottom: 16px
 }
 
 .best-blogs p {
@@ -413,13 +408,6 @@ border-radius: 5px;
     padding-bottom: 70px;
 }
 
-.best-blogs ul > li:first-of-type {
-    background-color: black;
-    color: white;
-    height: 370px;
-    width: 1170px;
-
-}
 
 .best-blogs img {
     width: 400px;
@@ -432,6 +420,10 @@ border-radius: 5px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 40px;
+    background-color: black;
+    color: white;
+    height: 370px;
+    width: 1170px;
 }
 
 .main-card img {
@@ -467,12 +459,43 @@ border-radius: 5px;
 }
 
 
+
+.database-card {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    /*justify-content: space-between;*/
+    gap: 30px;
+}
+
+
 .bottom-card {
     padding-top: 40px;
+    padding-left: 30px;
+    padding:right:30px;
     max-width: 570px;
-    gap: 30px;
+    /*gap: 30px;*/
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
 }
+
+.bottom-card h3 {
+    font-size: 24px;
+    line-height: 1.4;
+    text-align: left;
+    padding-bottom: 16px;
+}
+
+.bottom-card p {
+    font-size: 18px;
+    line-height: 1.4;
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+.bottom-card{
+    padding-bottom: 50px;
+}
+
 
 footer {
     background-color: #FAFAFA;
