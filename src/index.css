@@ -44,7 +44,7 @@
 }
 
 .container {
-    width:1440px;
+    width: 1440px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -57,7 +57,7 @@ header div {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap:30px;
+    gap: 30px;
     padding-bottom: 35px;
     padding-top: 35px;
 }
@@ -73,7 +73,7 @@ header .logo {
 
 }
 
-header >div> button {
+header > div > button {
     display: flex;
     border-color: #F7941E;
     background-color: transparent;
@@ -86,7 +86,7 @@ header >div> button {
     margin-right: 150px;
     /*margin-top: 40px;*/
     align-items: center;
-padding-left: 20px;
+    padding-left: 20px;
     padding-bottom: 5px;
 }
 
@@ -100,7 +100,7 @@ padding-left: 20px;
 }
 
 
-.header-nav ul >li> a {
+.header-nav ul > li > a {
     font-size: 18px;
     line-height: 1.2;
     font-weight: 900;
@@ -146,10 +146,11 @@ button {
 
 .find-a-gift-wrapper {
     width: 1170px;
-    padding-top: 80px;
+    padding-top: 70px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 80px;
+    /*margin-bottom: 80px;*/
+    margin-left: 120px;
 }
 
 .text-wrap {
@@ -170,52 +171,61 @@ button {
     color: black;
     margin-top: 50px;
     margin-right: 150px;
-   margin-bottom: 50px;
+    margin-bottom: 50px;
 }
-
 
 
 .text-wrap button {
     background-color: transparent;
-    color: transparent;
+    color: #F7941E;
     min-width: 200px;
-    height:60px;
+    height: 60px;
+}
+
+.text-wrap-2nd {
+    padding-top: 90px;
+    width: 441px;
+    max-height: 300px;
+    align-items: center;
 }
 
 .text-wrap-2nd h2 {
-justify-content: space-between;
+    justify-content: space-between;
+    padding-bottom: 23px;
 }
 
 .text-wrap-2nd p {
-justify-content: space-between;
+    justify-content: space-between;
+    padding-bottom: 50px;
 }
 
-.text-wrap-2nd button { /* Не пробивает, почему?*/
- color: transparent;
-    margin-left: 150px;
+.text-wrap-2nd button {
+    color: #F7941E;
     min-width: 200px;
-    height:60px;
+    height: 60px;
+    border-color: #F7941E;
+    border-radius: 5px;
+
 }
 
-.img-wrap-first img{
+.img-wrap-first img {
+    max-width: 570px;
+    display: flex;
+
+}
+
+.img-wrap img:last-of-type {
     max-width: 570px;
     display: flex;
     padding-bottom: 130px;
 }
 
-.img-wrap img:last-of-type{
-    max-width: 570px;
-    display: flex;
-    padding-bottom: 130px;
-}
-
-.find-a-gift-wrapper button {
+.text-wrap button {
     background-color: #F7941E;
     border-radius: 5px;
     color: white;
     border-color: #F7941E;
 }
-
 
 .find-a-gift-wrapper div:first-of-type {
     min-width: 430px;
@@ -239,6 +249,8 @@ justify-content: space-between;
     line-height: 1.3;
 }
 
+
+
 .gift-cards-wrapper ul {
     display: flex;
     justify-content: space-between;
@@ -250,12 +262,12 @@ justify-content: space-between;
     font-weight: 400;
     line-height: 1.3;
     color: #000000;
-padding-bottom: 24px;
+    padding-bottom: 24px;
 }
 
 .gift-cards-wrapper ul > li > img {
     width: 100%;
-    margin-right:30px;
+    gap: 30px;
 }
 
 .gifts-occasions ul > li {
@@ -264,28 +276,22 @@ padding-bottom: 24px;
     width: 270px;
 }
 
-.gift-cards-wrapper ul > li:first-of-type{
-box-shadow(10px 10px 15px rgba(0, 0, 0, 0.05));
+.gift-cards-wrapper ul > li:first-of-type {
+box-shadow(10 px 10 px 15 px rgba(0, 0, 0, 0.05));
 }
 
-.gift-cards-wrapper ul > li > h3 {
+.gift-cards-text  h3 {
+    min-height: 120px;
     padding-top: 25px;
-    padding-bottom: 75px;
     margin-left: 20px;
     font-size: 20px;
     line-height: 1.2;
-
+    flex-grow: 1;
 }
 
 .gift-cards-text {
     min-height: 166px;
     padding: 24px;
-}
-
-.gift-cards-text h3 {
-    min-height: 166px;
-    padding: 24px;
-    flex-grow: 1;
 }
 
 .gifts-occasions ul > li > a {
@@ -337,7 +343,7 @@ box-shadow(10px 10px 15px rgba(0, 0, 0, 0.05));
 }
 
 .get-started button:last-of-type {
-    width:200px;
+    width: 200px;
     background-color: transparent;
     color: black;
     border-color: black;
@@ -355,13 +361,13 @@ box-shadow(10px 10px 15px rgba(0, 0, 0, 0.05));
     background-color: black;
 }
 
-.best-blogs ul>li:first-child >h3{
-font-size: 48px;
+.best-blogs ul > li:first-child > h3 {
+    font-size: 48px;
     font-weight: 600;
     line-height: 1.2;
 }
 
-.best-blogs ul>li:first-child >p{
+.best-blogs ul > li:first-child > p {
     font-size: 14px;
     font-weight: 400;
     line-height: 1.2;
@@ -393,6 +399,7 @@ font-size: 48px;
     text-align: center;
     font-weight: 900;
 }
+
 .best-blogs p {
     text-align: center;
     padding-bottom: 70px;
@@ -448,7 +455,7 @@ font-size: 48px;
 .card-text-wrapper a {
     font-size: 18px;
     font-weight: 600;
-    color:white;
+    color: white;
     padding-bottom: 40px;
 }
 
@@ -457,14 +464,14 @@ font-size: 48px;
     padding-top: 40px;
     padding-bottom: 80px;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: space-between;
     max-width: 570px;
     gap: 30px;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
 }
 
-footer{
+footer {
     background-color: #FAFAFA;
     padding-top: 106px;
 }
@@ -472,14 +479,14 @@ footer{
 footer > nav > ul {
     display: flex;
     gap: 80px;
-   margin-left: 410px;
+    margin-left: 410px;
     margin-right: 410px;
     color: black;
     font-size: 14px;
     font-weight: 700;
 }
 
-.footer-nav{
+.footer-nav {
     line-height: 1.3;
     font-size: 14px;
     font-weight: 800;
@@ -492,7 +499,7 @@ footer > nav > ul {
 }
 
 
-.footer-logo{
+.footer-logo {
     color: #F7941E;
     font-family: HomemadeApple, sans-serif;
 }
