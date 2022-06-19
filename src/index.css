@@ -472,7 +472,7 @@ border-radius: 5px;
 .bottom-card {
     padding-top: 40px;
     padding-left: 30px;
-    padding:right:30px;
+    padding-right:30px;
     max-width: 570px;
     /*gap: 30px;*/
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
