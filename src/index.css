@@ -394,7 +394,7 @@ border-radius: 5px;
 }
 
 .best-blogs h2 {
-    padding-top: 108px;
+    padding-top: 60px;
     font-size: 32px;
     line-height: 1.2;
     text-align: center;
@@ -436,16 +436,9 @@ border-radius: 5px;
 
 .main-card img {
     display: flex;
-    flex-direction: column;
-
 }
 
 .card-text-wrapper {
-    display: flex;
-    max-width: 500px;
-    flex-direction: column;
-    padding-top: 63px;
-    align-items: flex-start;
     margin-left: 100px;
 }
 
@@ -456,10 +449,16 @@ border-radius: 5px;
 .card-text-wrapper h3 {
     font-size: 48px;
     font-weight: 600;
-    align-items: start;
+  text-align: left;
     padding-bottom: 60px;
+    margin-right: 200px;
 }
 
+.card-text-wrapper p{
+    text-align: left;
+    padding-top: 65px;
+    padding-bottom: 30px;
+}
 .card-text-wrapper a {
     font-size: 18px;
     font-weight: 600;
