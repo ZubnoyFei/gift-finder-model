@@ -50,14 +50,11 @@ body {
 
 .container {
     width: 1170px;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 header {
     padding-top: 38px;
     padding-bottom: 40px;
-
 }
 
 header > div {
@@ -69,6 +66,30 @@ header > div {
 .header-nav ul {
     display: flex;
     gap: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+header button {
+    min-width: 140px;
+    border: 1px solid #F7941E;
+    border-radius:5px;
+    color: #F7941E;
+    background-color: transparent;
+    padding-bottom: 13px;
+    padding-top: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.logo {
+    font-family: HomemadeApple, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 2.1;
+    color: #231F20;
+
 }
 
 .find-a-gift {
@@ -82,12 +103,54 @@ header > div {
     justify-content: space-between;
 }
 
+h1 {
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 1.2;
+    margin-bottom: 36px;
+}
+
+h1::after button {
+    background-color: #F7941E;;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+p{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.3;
+
+}
+
 .find-a-gift img {
     width: 570px;
 }
 
 .find-a-gift-wrapper {
     width: 440px;
+}
+
+.find-a-gift-wrapper h2 {
+    line-height: 1.4;
+    margin-bottom: 23px;
+}
+
+.find-a-gift-wrapper p {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.4;
+    margin-bottom: 50px;
 }
 
 .find-a-gift > div:first-of-type {
@@ -98,11 +161,27 @@ header > div {
     align-items: center;
 }
 
+.find-a-gift-wrapper button {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .gifts-occasions {
     padding-top: 130px;
     padding-bottom: 100px;
+text-align: center;
 }
 
+
+.gifts-occasions h2 {
+    margin-bottom: 23px;
+}
+
+.gifts-occasions p{
+ margin-bottom: 65px;
+}
 .gifts-occasions ul {
     display: flex;
     justify-content: space-between;
@@ -122,29 +201,43 @@ header > div {
     min-height: 166px;
     display: flex;
     flex-direction: column;
+    text-align: start;
+}
+
+.gift-cards-text a {
+    color: black;
+    font-weight: 600;
 }
 
 .gift-cards-text h3 {
     flex-grow: 1;
 }
 
-.get-started {
+
+.get-started h2
+{   font-weight: 900;
+    font-size: 32px;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+.get-started-wrapper {
     background-color: #F7941E;
+    display: flex;
+    justify-content: space-between;
     padding-top: 81px;
     padding-bottom: 70px;
 }
 
-.get-started-wrapper {
-    width: 970px;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    justify-content: space-between;
-}
+
 
 .best-blogs {
     padding-bottom: 90px;
     padding-top: 88px;
+}
+
+.best-blogs h2, .best-blogs p {
+    text-align: center;
 }
 
 .best-blogs ul {
@@ -161,10 +254,19 @@ header > div {
     align-items: center;
     width: 100%;
     gap: 100px;
+    text-align: left;
+}
+
+.main-card p {
+    text-align: left;
 }
 
 .main-card img {
     width: 400px;
+}
+
+.bottom-card p {
+    text-align: left;
 }
 
 .database-card {
