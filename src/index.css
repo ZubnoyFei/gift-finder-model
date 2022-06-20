@@ -84,8 +84,8 @@ header button {
     background-color: transparent;
     padding-bottom: 13px;
     padding-top: 13px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .logo {
@@ -152,8 +152,8 @@ p {
     color: white;
     padding-top: 15px;
     padding-bottom: 15px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
     border: 1px solid #F7941E;
     border-radius: 5px;
 }
@@ -199,8 +199,8 @@ p {
 .how-we-work > button {
     padding-top: 15px;
     padding-bottom: 15px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 50px;
+    padding-right:50px;
     background-color: transparent;
     color: #F7941E;
     border: 1px solid #F7941E;
