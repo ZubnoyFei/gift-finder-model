@@ -101,7 +101,8 @@ header button {
 .find-a-gift > div {
     display: flex;
     justify-content: space-between;
-    padding-top: 95px;
+    padding-top: 45px;
+    padding-bottom: 65px;
 }
 
 .find-a-gift img {
@@ -140,11 +141,12 @@ h1 {
 .find-a-gift > div:last-of-type {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .how-we-work {
-    margin-left: 130px;
+    align-items: center;
+    width: 440px;
+    margin-top: 70px;
 }
 
 .how-we-work h2 {
@@ -152,6 +154,7 @@ h1 {
     font-weight: 600;
     line-height: 1.4;
     margin-bottom: 23px;
+
 }
 
 .find-a-gift > div:last-child > img {
@@ -167,7 +170,7 @@ h1 {
 
 .how-we-work button {
     background-color: #F1F1F2;
-color: #F7941E;
+    color: #F7941E;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 30px;
@@ -175,4 +178,184 @@ color: #F7941E;
     border-color: #F7941E;
     border-radius: 5px;
 }
+
+.gifts-occasions {
+    padding-top: 65px;
+    padding-bottom: 52px;
+}
+
+.gifts-occasions > div > h2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+
+
+.gifts-occasions p {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 65px;
+}
+
+.gifts-occasions ul {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FAFAFA;
+}
+
+.gifts-occasions li {
+    flex-direction: column;
+    height: 430px;
+    width: 270px;
+    background-color: #FAFAFA;
+}
+
+.gifts-occasions li img {
+    height: 270px;
+}
+
+.gift-cards-text {
+    display: flex;
+}
+
+.gift-cards-text h3 {
+    flex-grow: 1;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.gift-cards-text > a {
+    color: black;
+    font-weight: 600;
+    justify-content: flex-end;
+}
+
+.get-started {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #F7941E;
+}
+
+.get-started-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    width: 970px
+}
+
+.get-started-wrapper-text-wrapper h2 {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 1.4;
+}
+
+.get-started-wrapper-text-wrapper p {
+    font-size: 32px;
+    line-height: 1.4;
+    font-weight: 600;
+}
+
+.get-started-wrapper-button-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+
+.get-started-wrapper-button-wrapper button:first-of-type {
+    background-color: black;
+    border: 1px solid #F7941E;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.get-started-wrapper-button-wrapper button:last-of-type {
+    background-color: #F7941E;
+    border: 1px solid black;
+    color: black;
+    border-radius: 5px;
+}
+
+.best-blogs {
+    padding-top: 75px;
+    display: flex;
+}
+
+
+.best-blogs h2 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.2;
+    margin-bottom: 23px;
+    display: flex;
+    justify-content: center;
+}
+
+.best-blogs > div > p {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.best-blogs ul {
+    padding-top: 35px;
+}
+
+.main-card {
+    display: flex;
+}
+
+
+.main-card img {
+    display: flex;
+    width: 400px;
+
+}
+
+.card-text-wrapper {
+    width: 700px;
+    background-color: black;
+    color: white;
+    padding-top: 63px;
+    padding-bottom: 49px;
+    padding-right: 120px;
+    padding-left: 100px;
+}
+
+
+.card-text-wrapper p {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.3;
+    margin-bottom: 27px;
+}
+
+.card-text-wrapper h3 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 60px;
+}
+
+.card-text-wrapper a {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.4;
+    color: white;
+}
+
 
