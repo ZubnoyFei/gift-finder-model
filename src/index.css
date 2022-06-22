@@ -223,10 +223,6 @@ h1 {
     height: 270px;
 }
 
-.gift-cards-text {
-    display: flex;
-}
-
 
 .gift-cards-text h3 {
     min-height: 120px;
@@ -238,9 +234,10 @@ h1 {
 }
 
 .gift-cards-text > a {
+    display: flex;
     color: black;
     font-weight: 600;
-    justify-content: flex-end;
+vertical-align: bottom;
 }
 
 .get-started {
@@ -250,11 +247,9 @@ h1 {
 }
 
 .get-started-wrapper {
+    align-items: center;
     display: flex;
     justify-content: space-between;
-    margin-left: auto;
-    margin-right: auto;
-    width: 970px
 }
 
 .get-started-wrapper-text-wrapper h2 {
@@ -277,13 +272,14 @@ h1 {
 
 
 .get-started-wrapper-button-wrapper button:first-of-type {
-
     background-color: black;
     color: white;
-    border-color: black;
     padding-left: 20px;
     padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-radius: 5px;
+    border: 1px solid black;
 }
 
 
@@ -293,6 +289,10 @@ h1 {
     border: 1px solid black;
     color: black;
     border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .best-blogs {
