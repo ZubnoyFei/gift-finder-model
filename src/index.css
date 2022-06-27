@@ -271,6 +271,7 @@ h1 {
     justify-content: space-between;
 }
 
+
 .get-started-wrapper-text-wrapper {
     width: 330px;
 }
@@ -288,7 +289,7 @@ h1 {
 }
 
 .get-started-wrapper-button-wrapper {
-    gap: 16px;
+    align-self: center;
 }
 
 .get-started-wrapper-button-wrapper button:first-of-type {
