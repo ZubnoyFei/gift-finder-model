@@ -1,0 +1,55 @@
+.gifts--occasions {
+    padding-top: 60px;
+    padding-bottom: 135px;
+    text-align: center;
+}
+
+.gifts--occasions__heading {
+    margin-bottom: 20px;
+}
+
+.gifts--occasions__text {
+    margin-bottom: 80px;
+}
+
+.cards {
+    display: flex;
+    gap: 30px;
+}
+
+.cards__item {
+    width: 270px;
+}
+
+.cards__img {
+    width: 100%
+}
+
+
+.cards__text {
+    display: flex;
+    flex-direction: column;
+    min-height: 166px;
+    text-align: left;
+    padding: 20px;
+}
+
+.cards__text:hover {
+    box-shadow:10px 10px 15px rgba(0, 0, 0, 0.05);
+}
+
+.cards__heading {
+font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2;
+    flex-grow: 5;
+}
+
+.cards__link {
+font-size: 14px;
+    font-weight: 600;
+    line-height: 1.3;
+    flex-grow: 1;
+    color: black;
+}
+
