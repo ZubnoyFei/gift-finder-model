@@ -1,0 +1,49 @@
+.hero {
+    background-color: #F1F1F2;
+
+    padding-bottom: 130px;
+}
+
+.hero__content-wrapper {
+    display: flex;
+    gap: 170px;
+    padding-top: 70px;
+}
+
+.hero__heading {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+.hero__paragraph {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.4;
+    margin-bottom: 65px;
+}
+
+.hero__img {
+    width: 570px;
+}
+
+.hero__subtext {
+    align-items: center;
+    justify-content: center;
+}
+
+.hero__subheading {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 1.6;
+    margin-bottom: 50px;
+}
+
+.how-we-work__button {
+    background-color: #F1F1F2;
+    padding-top:15px;
+    padding-right: 40px;
+    padding-bottom:15px;
+    padding-left: 40px;
+}

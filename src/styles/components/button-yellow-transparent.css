@@ -1,0 +1,11 @@
+.button__yellow--transparent {
+    color: #F7941E;
+    background-color: #FFFFFF;
+    padding-top:10px;
+    padding-right: 30px;
+    padding-bottom:10px;
+    padding-left: 30px;
+    border: 1px solid #F7941E;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
