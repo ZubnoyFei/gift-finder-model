@@ -1,0 +1,50 @@
+.get-started {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #F7941E;
+}
+
+.get-started__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.get-started__bold {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.4;
+    margin-bottom:20px ;
+}
+
+.get-started__normal-text {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+.get-started__button-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 15px
+}
+
+.get-started--button {
+   padding-top: 10px;
+    padding-left: 35px;
+    padding-bottom: 10px;
+    padding-right: 35px;
+    text-transform: uppercase;
+}
+
+.get-started__black {
+    background-color: black;
+    color: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.get-started__transparent {
+    background-color: #F7941E;
+    color: #000000;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
