@@ -34,7 +34,7 @@
     padding: 20px;
 }
 
-.cards__text:hover {
+.cards__item:hover {
     box-shadow:10px 10px 15px rgba(0, 0, 0, 0.05);
 }
 
