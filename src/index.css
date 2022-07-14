@@ -5,7 +5,7 @@
 @import "styles/gifts--occasions.css";
 @import "styles/get-started.css";
 @import "styles/best-blogs.css";
-
+@import "styles/footer.css";
 
 @font-face {
     font-family: Gilroy;
@@ -98,4 +98,8 @@ body {
     font-weight: 500;
     font-size: 24px;
     line-height: 1.3;
+}
+
+.logo__yellow {
+    color: #F7941E;
 }
