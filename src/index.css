@@ -2,6 +2,9 @@
 @import "styles/components/button-yellow-transparent.css";
 @import "styles/components/button-orange.css";
 @import "styles/hero.css";
+@import "styles/gifts--occasions.css";
+
+
 
 @font-face {
     font-family: Gilroy;
@@ -81,4 +84,17 @@ body {
 
 .center {
     align-items: center;
+}
+
+.section__subheading {
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.text {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.3;
 }
